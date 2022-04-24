@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+/* body */
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #ededff;
+    margin: 20px auto;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background: url("A5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+/* container */
+.profile{
+    background: #32384f59;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    padding: 30px 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: -5px -5px rgba(0,0,0,0.5), -5px -5px rgba(0,0,0,0.5);
+   
+}
+/* header icon which include arrow-left, heart and ellipsis-vertical  */
+.head-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-heart{
+    margin-right: 20px;
+}
+.fa-arrow-left:hover{
+    cursor: pointer;
+}
+
+.fa-ellipsis-vertical:hover{
+    cursor: pointer;
+}
+.fa-heart:hover{
+    cursor: pointer;
+}
+/* profile picture */
+.user-img{
+    width: 100px;
+    border-radius: 100px;
+border: 3px solid white;
+transition: 0.5s ease-in-out;
+} 
+.user-img:hover{
+    cursor: pointer;
+ border: 3px solid #e34494;
+
+}
+
+h2{
+    font-weight:500 ;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+p{
+    font-size: 15px;
+    line-height: 18PX;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    background: linear-gradient(to right, #8d68c5,#e34494);
+    margin: 40px 0 ;
+    font-size: 15px ;
+    transition: 1s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background: rgba(255,255,255,0.1);
+}
+.btn_lk{
+    margin: 10px;
+    transition: 1s ease-in-out;
+}
+img:hover{
+    
+    border: 2px solid black;
+    border-radius: 40px;
+}
+#surname{
+    color:#e34494;
+}
